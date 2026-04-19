@@ -1,0 +1,22 @@
+[project]
+name = "aether-scape"
+version = "0.1.0"
+description = "An intelligent, resilient, and stealthy web scraping framework."
+authors = [
+    { name = "Antigravity AI", email = "ai@example.com" }
+]
+dependencies = [
+    "playwright>=1.40.0",
+    "curl_cffi>=0.6.0",
+    "google-generativeai>=0.3.0",
+    "pydantic>=2.0.0",
+    "beautifulsoup4>=4.12.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.0",
+    "playwright-stealth>=1.0.6",
+    "openai>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
